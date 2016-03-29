@@ -1,7 +1,7 @@
 # Ubuntu 14.04 LTS
-# Oracle Java 1.8.0_11 64 bit
+# Oracle Java 1.8.0_77 64 bit
 # Maven 3.2.2
-# Jenkins 1.574
+# Jenkins 1.655
 # git 1.9.1
 # Nano 2.2.6-1ubuntu1
 

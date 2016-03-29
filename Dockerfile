@@ -42,9 +42,9 @@ RUN apt-get install -y nano
 RUN apt-get clean
 
 # set shell variables for java installation
-ENV java_version 1.8.0_11
-ENV filename jdk-8u11-linux-x64.tar.gz
-ENV downloadlink http://download.oracle.com/otn-pub/java/jdk/8u11-b12/$filename
+ENV java_version 1.8.0_77
+ENV filename jdk-8u77-linux-x64.tar.gz
+ENV downloadlink http://download.oracle.com/otn-pub/java/jdk/8u77-b03/$filename
 
 # download java, accepting the license agreement
 RUN wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" -O /tmp/$filename $downloadlink 
